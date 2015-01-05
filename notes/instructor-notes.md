@@ -10,7 +10,7 @@ Mostly this is for my benefit - but if others find it helpful, that's great.
 
 * Class 1
 	* Set up chalk website (done)
-	* email students to bring a laptop to class
+	* email students to bring a laptop to class (done)
 	* send out a survey to see if people can make Thursday night for dinner
 	* make a list of to-do items for students
 
@@ -22,5 +22,7 @@ Mostly this is for my benefit - but if others find it helpful, that's great.
 	* Introduction to the idea of a Dynamic Statistical Comparison. The Elastic Net paper as a motivating example.
 	* First Goal: to work in groups to produce a DSC that reproduces the results of the Elastic Net paper.
 	* Before we can do this we need some familiarity with the following tools:
-		+ 
+		* Communication (slack)
+		* Version control (git, github)
+		* Reproducible research (knitr, make) 
 
