@@ -15,7 +15,7 @@ Here are the things each student needs to do to prepare and familiarize with the
 
 
 * Organize github and git
-	* Sign up for an account on [github](http://www.github.com). 
+	* Sign up for an account on [github](http://www.github.com). You may want to ask for a [student discount](http://education.github.com) where you can get free accounts that also include private repos (usually you have to pay for private repos). 
 		* Post your github user id on the "github" channel of slack
 
 	* Install [git](http://git-scm.com) on your laptop/computer.
@@ -37,4 +37,23 @@ See the second answer [here](http://stackoverflow.com/questions/6767481/where-ca
 
 
 * Organize the 'dscr' package
-	* Install the [dscr package](https://github.com/stephens999/dscr) in R
+	* Install the [dscr package](https://github.com/stephens999/dscr) in R.
+	* Run the vignette and make sure it works.
+
+## Next Step - the first DSC
+
+Now I hope we are ready to try to use the dscr package to run our own DSC. My plan here is to focus on the simulation study in Section 5 of the
+Elastic Net paper by
+[Zou and Hastie](http://web.stanford.edu/~hastie/Papers/B67.2%20%282005%29%20301-320%20Zou%20&%20Hastie.pdf).
+
+* Key question: should we do one DSC between us and work together? Or do one each and then compare how we did it?
+* If we work together, one group could put together the datamaker function and scenarios; another could put together the methods?
+* A key thing will be to keep track of problems that we have. Open an issue in the dscr repo with any problems that you come across.
+Give enough details that someone could reproduce the problem. Maybe you can even fix the problem (but document it first!). 
+I anticipate that the main thing we might want to do at this stage is add checks to the dscr package
+so that users can more easily diagnose problems.
+
+## And then...
+
+My tentative plan is that after we have one DSC working, we will look for other published comparisons that we could turn into a DSC. We might also
+want to add other comparisons to the EN DSC beyond those in the original publication. 
